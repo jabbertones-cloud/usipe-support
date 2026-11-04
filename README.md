@@ -1,28 +1,43 @@
 # USIPE Office Actions support
 
-Public support for USIPE's USPTO trademark Office Action research MCP.
+Report a problem with USIPE's trademark Office Action research and workflow tools.
 
-**[Browse and search issues](https://github.com/jabbertones-cloud/usipe-support/issues)** | **[Report a bug](https://github.com/jabbertones-cloud/usipe-support/issues/new/choose)**
+**[Search issues](https://github.com/jabbertones-cloud/usipe-support/issues)** · **[Report a bug](https://github.com/jabbertones-cloud/usipe-support/issues/new/choose)** · **[Read agent instructions](AGENT-GITHUB-ISSUES.md)**
 
-This is the public support and bug-tracking repository. It intentionally contains no application source and starts with **zero issues**. It holds a README, agent instructions and issue templates. The product source remains in its existing repository.
+## Find an answer first
 
-## Request help
+Search the [open and closed issues](https://github.com/jabbertones-cloud/usipe-support/issues?q=is%3Aissue) for your symptom or MCP tool name. You may find a workaround without opening a new report.
 
-Before reporting, search open and closed issues for the symptom or MCP tool name. Include a plain-language summary, expected and observed behavior, sanitized steps to reproduce, relevant MCP client and version, and whether the problem is repeatable. Use the issue form for bugs and feature requests.
+- [Troubleshooting](docs/troubleshooting.md)
+- [FAQ](docs/faq.md)
 
-## Support through an AI agent
+## Report a problem
 
-An agent can use [GitHub's official MCP server](https://github.com/github/github-mcp-server) or the user's authenticated GitHub CLI to search and read issues, file a report when the user asks, and reply to existing issues. Read [AGENTS.md](AGENTS.md) for the exact workflow. The USIPE Office Actions MCP does **not** embed an owner GitHub token and does not grant agents GitHub access automatically.
+1. Select **Report a bug** and choose the matching issue form.
+2. Name the MCP tool and describe the research or workflow error without sharing a private trademark matter. Include the tool/client version, the behavior you expected and safe reproduction steps.
+3. Remove passwords, access tokens, customer information, private source code, screenshots with personal data and raw logs before posting.
+4. Submit and keep the issue URL so you or your agent can check replies.
 
-If GitHub is not connected, the agent must prepare a redacted issue title and body with a link to the new-issue form, not claim it created an issue.
+**Do not publish private or security information.** Use [private product support](https://usipe-mcp.smatdesigns.com/contact-support) when the details cannot be shared publicly. Read [Security](SECURITY.md) before reporting a vulnerability.
 
-## Public safety
+## Use an AI agent to get help
 
-Never include trademark matter details, unpublished legal arguments, applicant names, filings that are not public, USPTO account credentials, API tokens, payment details, or legal advice requests. For suspected security vulnerabilities, use a private disclosure channel, not a public issue.
+An agent with a separately authorized GitHub connection can search issues, read the full discussion, prepare a safe report and, when requested, create an issue or post a reply. The maintained [GitHub MCP Server](https://github.com/github/github-mcp-server) exposes these issue operations. The product MCP does **not** automatically give the agent GitHub permissions.
 
-USIPE is independent research software, not the USPTO or a law firm. Use official USPTO records to verify filing deadlines; a support issue is not a filing or extension.
+Ask your agent: **"Check existing USIPE Office Actions support issues for this error and tell me whether there is a fix or workaround."**
 
-## Project
+To file a report, ask: **"Prepare a public bug report with safe details. Search for duplicates, then file it using my GitHub connection."**
 
-- Product source: `jabbertones-cloud/USIPEorg` (the source repository may have different visibility)
-- Issue tracker: https://github.com/jabbertones-cloud/usipe-support/issues
+If GitHub is not connected, your agent can prepare a report and give you the [new issue form](https://github.com/jabbertones-cloud/usipe-support/issues/new/choose). It must not claim a ticket was created.
+
+Read [Agent workflow](AGENTS.md) and [GitHub issue operations](AGENT-GITHUB-ISSUES.md).
+
+## What happens next
+
+You can track an issue and respond in its GitHub thread. A maintainer may ask for a minimal reproduction, share a workaround or request a new test. There is no guaranteed response time. A report is not fixed until the affected behavior has been independently checked.
+
+USIPE is independent research software. It is not a law firm or the USPTO. A GitHub issue is not a trademark filing, an Office Action response or a deadline extension. Check official USPTO records for actual dates.
+
+## Contribute
+
+Corrections and reusable troubleshooting notes are welcome. See [Contributing](CONTRIBUTING.md) and [Support policy](SUPPORT.md).
