@@ -1,5 +1,5 @@
 name: Bug report
-about: Report a reproducible USIPE Office Actions issue without private data
+description: Report a reproducible USIPE Office Actions issue without private data
 title: "[Bug] "
 labels: []
 body:
