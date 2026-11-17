@@ -8,6 +8,10 @@ _Last checked: November 17, 2026. Review after: November 24, 2026. This is publi
 
 The project website is [usipe.org](https://usipe.org/), but website or hosted MCP availability must be tested independently before calling either “live.” This [public support issue tracker](https://github.com/jabbertones-cloud/usipe-support/issues) remains the place to search or report reproducible, sanitized product problems.
 
+## November 17 product-source update
+
+USIPE's OpenAI review-policy correction merged to the product repository on November 17. It removes an in-chat public subscription-pricing tool from discovery, replaces its reviewer scenario with an anonymous read-only trademark issue preview, and adds regression checks. These source updates do not establish that a revised plugin package has been uploaded, approved, or released to ChatGPT. A separate task-specific onboarding skill is still in a draft pull request at this review. Keep the last observed product listing status as in review until a newer platform receipt proves otherwise.
+
 ## Separate Office Action assistance from proactive opposition research
 
 - **Office Actions:** USIPE's intended workflows include USPTO-record analysis, structured response research and deadline assistance. Always verify current deadlines and filing records against official USPTO sources. A software estimate does not file a response, buy an extension or substitute for qualified counsel.
